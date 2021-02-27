@@ -2,23 +2,42 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Roboto Light";
 }
-
+body {
+    background-color: cyan;
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: inherit;
+    color: inherit;
+}
 .password-generator {
+    display: none;
     text-align: center;
-    background: #addd64;
-    color: #7c7878;
     border-radius: 10px;
     width: 500px;
-    height: 200px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 20%;
     transform: translate(-50%, -50%);
+    padding: 15px 0;
+    box-shadow: 10px 10px 30px #333 ;
+}
+h5 {
+    position: absolute;
+    right: 65px;
+    top: 50px;
 }
 .password-generator p {
-    margin-top: 30px;
-    font-weight: bold;
-    color: #f00;
+    margin-top: 20px;
+}
+.password-generator h1{
+    margin-bottom: 10px;
+}
+#utente {
+    padding: 10px 0;
+}
+.altri-dati {
+    left: 50%;
+    top: 42%;
 }

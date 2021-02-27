@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="./assets/css/master.css">
-    <title>Password Gen</title>
-</head>
-<body>
-    <div class="password-generator">
-        <h1>Password Generator</h1>
-        <p id="output"></p>
-    </div>
-<script type="text/javascript" src="./assets/js/main.js" >
-</script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/master.css">
+        <title>Password Gen</title>
+    </head>
+    <body>
+        <!--Sezione password-->
+        <div id="div-p" class="password-generator">
+            <h1>Password Generator</h1>
+            <h5>by <a href="mailto:templarec@gmail.com">Templarec</a></h5>
+            <p id="utente"></p>
+            <span>La tua nuova password è: </span><p id="output"></p>
+        </div>
+        <!-- Sezione altri dati-->
+        <div id="div-a" class="password-generator altri-dati">
+            <p id="data-nascita"></p>
+            <p id="eta"></p>
+        </div>
+    <script type="text/javascript" src="./assets/js/main.js" >
+    </script>
+    </body>
 </html>
