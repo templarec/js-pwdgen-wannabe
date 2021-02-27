@@ -1,4 +1,4 @@
-Tempo impiegato nel progetto ~30 minuti <br />
+Tempo impiegato nel progetto 2:30 ore <br />
 
 Consegna: <br />
 
